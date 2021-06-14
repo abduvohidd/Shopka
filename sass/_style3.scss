@@ -1,0 +1,44 @@
+.card-books{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 32rem;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+
+
+    .card-book{
+        background: #EDEDF0;
+        border-radius: 8px;
+        padding:3rem  2rem;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        margin-left: 2rem;
+        padding: 3rem 5rem;
+
+        h3{
+            font-family: $fontfamily;
+            font-style: normal;
+            font-weight: bold;
+            font-size: $fontsize-4;
+            line-height: 1.5;
+            display: flex;
+            align-items: center;
+            text-align: center;
+            
+        }
+
+        h6{
+            font-family: $fontfamily;
+            font-style: normal;
+            font-weight: 500;
+            font-size: $fontsize-3;
+            line-height: 1.4;
+            display: flex;
+            align-items: center;
+            text-align: center;
+        }
+    }
+}
